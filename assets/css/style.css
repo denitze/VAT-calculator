@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100;300;400;600&display=swap');
+
+body {
+    min-height: 100vh;
+    font-family: 'Encode Sans', sans-serif;
+    background: #72a2e949;
+}
+
+.calculator {
+
+background: #72A2E9;
+color:#444444;
+margin: 10vh 8rem;
+padding:3rem;
+display:flex;
+justify-content: space-around;
+border-radius: 10px;
+}
+
+
+.ergebnis {
+    margin-top:vh;
+}
+
+h3 {
+    border-top: solid 3px salmon;
+    padding-top:2vh;
+}
+
+span {
+    color:red;
+}
+input[type=number] {
+    padding:.5rem 1rem;
+    width:50%;
+    margin-bottom: 2vh;
+}
+
+input[type=button] {
+    width:100%;
+    padding:.8rem 1rem; 
+    background:salmon;
+    border:none;
+    border-radius: 5px;
+    color:#444444;
+    font-weight: 600;
+    font-size: 1rem;
+}
+input[type=button]:hover {
+    background: #444444;
+    color: salmon;
+}
